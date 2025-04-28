@@ -30,3 +30,37 @@ Ensure the following Python libraries are installed:
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn scipy liac-arff
+```
+
+## 📈 Dataset Description
+
+**Format** : ARFF (Attribute-Relation File Format).
+**Features** : Time-based statistical features like:
+Packet counts
+Byte counts
+Duration
+Inter-arrival times
+And 20 more..!
+
+**Label** : VPN for encrypted traffic
+            Non-VPN for unencrypted traffic
+
+## 🎯 Objective
+Develop an accurate and efficient classifier that can differentiate between VPN and Non-VPN traffic based on time-based characteristics without inspecting the packet payloads.
+
+## 📚 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vighnesh-18/VPN-Non-VPN-Prediction.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd VPN-Non-VPN-Prediction
+   ```
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open and execute the VPN_Non_VPN.ipynb notebook step by step.
+

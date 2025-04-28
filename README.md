@@ -16,7 +16,7 @@ This project focuses on classifying network traffic as VPN or Non-VPN based on t
    - Normalize/scale the feature set.
    - Encode categorical labels if required.
 3. **Model Building**:
-   - Train machine learning models (e.g., Random Forest, SVM).
+   - Train machine learning models (XGBoost)
    - Perform train-test split and cross-validation if needed.
 4. **Evaluation**:
    - Compute accuracy, precision, recall, F1-score.
